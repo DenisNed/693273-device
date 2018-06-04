@@ -13,22 +13,20 @@
       </a>
       
       <section class="main-header-search">
-    			<<!--Здесь будет поиск-->>
+    			<!--Здесь будет поиск-->
       </section>
 
       <div class="main-header-user-navigation">
-       <ul class="user-login">
-    	<li><a class="login-link">Войти</a></li>
-       </ul>
-       <ul class="user-buy">
-    	<li><a class="compare-items">Сравнить</a></li>
-    	<li><a class="items-shop">Корзина</a></li>
+       <ul class="header-user-navigation">
+    	<li><a class="login-link" href="#">Войти</a></li>
+    	<li><a class="compare-items" href="#">Сравнить</a></li>
+    	<li><a class="items-shop" href="#">Корзина</a></li>
        </ul>
       </div>
 
       <div class="main-header-site-navigation">
        <ul class="catalog-items">
-    	<li><a class="main-catalog-items">Каталог товаров</a></li>
+    	<li><a class="main-catalog-items" href="#">Каталог товаров</a></li>
        </ul>
        <ul class="site-navigation">
     	<li><a href="delivery.html">Доставка</a></li>
@@ -36,13 +34,35 @@
     	<li><a href="contancts.html">Контакты</a></li>
        </ul>
       <div>
+
+      <!--Выпадающее меню каталога-->
+
+      <div class="main-manu-catalog">
+        <table>
+          <tr>
+            <td>Виртуальная реальность</td>
+            <td>Фитнес браслеты</td>
+            <td>Квадракоптеры</td>
+          </tr>
+          <tr>
+            <td>Моноподы для селфи</td>
+            <td>Умные часы</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Экшн-камеры</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
      </nav>
     </header>
 
 
     <main class="main-content">
-     <section class="main-slider">
-      <h1 class="visually-hidden">Наши лучшие товары</h1>
+     <h1 class="visually-hidden">Наши лучшие товары</h1>
+     <section class="main-slider-page-1">
       <a class="image-slider-photo-1">
        <img src="slider-1.png" width="407" height="486" alt="Стойка для селфи">
       </a>
@@ -57,7 +77,7 @@
       </div>
 
       <div class="slider-more-info">
-       <p><a href="#">Подробнее</a></p>
+       <p><a class="slider-btn btn" href="#">Подробнее</a></p>
       </div>
       
       <ul class="slider-btn">
@@ -78,6 +98,94 @@
        </tr>
       </table>
      </section>
+
+     <!--Страница №2 Слайдера -->
+     <section class="main-slider-page-2">
+      <a class="image-slider-photo-2">
+       <img src="" width="407" height="486" alt="Фитнес-браслет">
+      </a>
+      <p class="slider-page-number">02
+      </p>
+          
+      <div class="slider-information">
+       <h2>Худеем правильно!</h2>
+       <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
+        
+       </p>
+      </div>
+
+      <div class="slider-more-info">
+       <p><a class="slider-btn btn" href="#">Подробнее</a></p>
+      </div>
+      
+      <ul class="slider-btn">
+       <li class="sider-btn-page-1"><a href="page-1.html">X</a></li>
+       <li class="slider-btn-page-2"><a href="page-2.html">X</a></li>
+       <li class="slider-btn-page-3"><a href="page-3.html">X</a></li>
+      <ul>
+      <table class="slider-items-parameter">
+       <tr>
+        <th>48 часов</th>
+      <!--  
+      <th></th>
+      <th></th>
+       -->
+       </tr>
+       <tr>
+        <td>Без подзарядки</td>
+      <!--
+      <td></td>
+      <td></td>
+       -->
+       </tr>
+      </table>
+     </section>
+
+     <!--Станица №3 слайдера-->
+
+     <section class="main-slider-page-3">
+      <a class="image-slider-photo-3">
+       <img src="" width="486" height="486" alt="Квадракоптер">
+      </a>
+      <p class="slider-page-number">03
+      </p>
+          
+      <div class="slider-information">
+       <h2>Порхает как бабочка, жалит как пчела!</h2>
+       <p>Этот обычный, на первый взгляд, кввадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
+       </p>
+      </div>
+
+      <div class="slider-more-info">
+       <p><a class="slider-btn btn" href="#">Подробнее</a></p>
+      </div>
+      
+      <ul class="slider-btn">
+       <li class="sider-btn-page-1"><a href="page-1.html">X</a></li>
+       <li class="slider-btn-page-2"><a href="page-2.html">X</a></li>
+       <li class="slider-btn-page-3"><a href="page-3.html">X</a></li>
+      <ul>
+      <table class="slider-items-parameter">
+       <tr>
+        <th>800 м</th>
+        
+      <th>50 м</th>
+      <!--
+      <th></th>
+       -->
+      </tr>
+      <tr>
+        <td>Дальность полета</td>
+      
+      <td>Радиус поражения</td>
+      <!--
+      <td></td>
+       -->
+       </tr>
+      </table>
+     </section>
+
+
 
 
      <section class="main-popular">
@@ -147,11 +255,87 @@
     		
      
     	</section>
-    	<section class="main-brands"></section>
-    	<section class="main-about-us"></section>
-    	<section class="main-contacts"></section>
+    	<section class="main-brands">
+       <ul>
+              <li><img src="logo-1.png" width="300" height="100" alt="DJI компания"></li>
+              <li> <img src="logo-2.png" width="300" height="100" alt="SP Gadjets"></li>
+              <li> <img src="logo-3.png" width="300" height="100" alt="Go Pro"></li>
+              <li> <img src="logo-4.png" width="300" heigth="100" alt="Vive"></li>
+              <!--Тут можно и через bg-image. как лучше? -->
+
+              <!-- ДОПИСАТЬ АДРЕСА КАРТИНОК-->
+            </ul> 
+      </section>
+    	<section class="main-about-us">
+        <div class="about-us-info" >
+        <h2>О нас</h2>
+        <p>Огромный выбор гаджетов не оставит равнодушным гика,<br> который есть в каждом из нас</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки<br> России! DEVICE работает со многими транспортными компаниями</p>
+       </div>
+       <ul class="about-us-info-delivery-list">
+        <li>
+          <p>Деловые линии</p>
+        </li>
+        <li> 
+          <p>Автотрейдинг</p>
+        </li>
+        <li>
+          <p>ЖелДорЭкспедиция</p>
+        </li>
+       </ul>
+       <a class="about-us-info-btn btn" href="about-us.html">Подробнее о нас</a> 
+      </section>
+    	<section class="main-contacts">
+       <h2>Контакты</h2>
+        <p>Вы можете забрать сами, заехав в наш офис. Заодно, вы сможете проверить работоспособоность покупки. Всякое бывает.</p>
+        <a class="contacts-us-btn btn">Напишите нам</a> 
+      </section>
     </main>
-    <footer class="main-footer"></footer>
+
+
+    <footer class="main-footer">
+        <span class="footer-logo">DEVICE</span>
+      <p class="footer-adress"> г.Москва ул.Строителей, 15</p>
+      <div class="footer-site-navigation">
+      <ul class="footer-site-navigation-list">
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="guaranty.html">Гарантии</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      </div>
+
+      <div class="footer-social">
+       <ul>
+        <li><a class="social-btn" href="#">Фейсбук</a></li>
+        <li><a class="social-btn" href="#">Инстаграм</a></li>
+        <li><a class="social-btn" href="#">Вконтакте</a></li>        
+       </ul>
+      </div>
+
+      <div class="main-footer-user-navigation">
+       <ul class="footer-user-navigation">
+        <li><a class="login-link" href="#">Войти</a></li>
+        <li><a class="compare-items" href="#">Сравнить</a></li>
+        <li><a class="items-shop" href="#">Корзина</a></li>
+       </ul>
+      </div>
+      <p class="footer-telephone-number"> Тел. +7(495) 495-95-95 </p>
+      <a class="logo-creator"><img="" width="30" heigth="40" alt="Логотип HTML Academy"></a>
+    </footer>
+
+
+    <section class="modal modal-contact-us">
+     <h2 class="visually-hidden">Связаться с нами</h2>
+    <!-- Тут будет форма обратной связи-->
+     <a class="contact-us-btn btn" href="#">Отправить</a>
+     <span class="modal-close">X</span>
+    </section>
+
+    <section class="modal modal-map">
+     <h2 class="visually-hidden">Найти нас</h2>
+     <!--Карта-->
+     <span class="modal-close">X</span>
+    </section>
 
   </body>
 </html>
