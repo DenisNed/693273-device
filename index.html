@@ -16,45 +16,45 @@
     			<!--Здесь будет поиск-->
         </section>
 
-        <div class="main-header-user-navigation">
-          <ul class="header-user-navigation">
-    	      <li><a class="login-link" href="#">Войти</a></li>
-    	      <li><a class="compare-items" href="#">Сравнить</a></li>
-    	      <li><a class="items-shop" href="#">Корзина</a></li>
-          </ul>
-        </div>
+        
+        <ul class="user-navigation">
+    	    <li><a href="user-link">Войти</a></li>
+    	    <li><a href="compare.html">Сравнить</a></li>
+    	    <li><a href="shop.html">Корзина</a></li>
+        </ul>
 
-        <div class="main-header-site-navigation">
-          <ul class="catalog-items">
-    	      <li><a class="main-catalog-items" href="#">Каталог товаров</a></li>
+        <div class="site-navigation">
+          <ul class="menu">
+    	      <li><a class="menu-items" href="#">Каталог товаров</a></li>
           </ul>
+        
+          <ul class="menu-items">
+            <li>
+              <ul>
+                <li><a href="#">Виртуальная реальность</a></li>
+                <li><a href="#">Моноподы для селфи</a></li>
+                <li><a href="#">Экшн-камеры</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="#">Фитнес-браслеты</a></li>
+                <li><a href="#">Умные-часы</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="#">Квадракоптеры</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
           <ul class="site-navigation">
     	      <li><a href="delivery.html">Доставка</a></li>
     	      <li><a href="guaranty.html">Гарантия</a></li>
     	      <li><a href="contancts.html">Контакты</a></li>
           </ul>
-        <div>
-
-      <!--Выпадающее меню каталога!-->
-
-        <div class="main-menu-catalog">
-          <table>
-            <tr>
-              <td>Виртуальная реальность</td>
-              <td>Фитнес браслеты</td>
-              <td>Квадракоптеры</td>
-            </tr>
-            <tr>
-              <td>Моноподы для селфи</td>
-              <td>Умные часы</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Экшн-камеры</td>
-              <td></td>
-              <td></td>
-            </tr>
-          </table>
         </div>
       </nav>
     </header>
@@ -63,123 +63,121 @@
     <main class="main-content">
       <h1 class="visually-hidden">Наши лучшие товары</h1>
       <section class="main-slider-page-1">
-        <a class="image-slider-photo-1">
-          <img src="slider-1.png" width="407" height="486" alt="Стойка для селфи">
-        </a>
-        <p class="slider-page-number">01
-        </p>
+        <ol>
+          <li>
+            <a class="image-slider-photo-1">
+              <img src="img/slider-1.png" width="384" height="486" alt="Стойка для селфи">
+            </a>
+            <p class="slider-page-number">01</p>
     	    
-        <div class="slider-information">
-          <h2>Делай селфи, как Бен Стилер!</h2>
-          <p>Самая длинная палка для селфи доступна в нашем магазине.
-    	       Восемь (Восемь,Карл!) метров длиной и весом всего 5  килограмм.
-          </p>
-        </div>
+            <div class="slider-information">
+              <h2>Делай селфи, как Бен Стилер!</h2>
+              <p>Самая длинная палка для селфи доступна в нашем магазине.
+    	         Восемь (Восемь,Карл!) метров длиной и весом всего 5  килограмм.
+              </p>
+            </div>
 
-        <div class="slider-more-info">
-          <p>
-            <a class="slider-btn btn" href="#">Подробнее</a>
-          </p>
-        </div>
+            <div class="slider-more-info">
+              <p>
+                <a class="slider-btn btn" href="#">Подробнее</a>
+              </p>
+            </div>
       
-        <ul class="slider-btn">
-          <li class="slider-btn-page-1"><a href="page-1.html">X</a></li>
-          <li class="slider-btn-page-2"><a href="page-2.html">X</a></li>
-          <li class="slider-btn-page-3"><a href="page-3.html">X</a></li>
-        </ul>
-        <table class="slider-items-parameter">
-          <tr>
-            <th>8,5 м</th>
-    	      <th>5 кг</th>
-    	      <th>Карбон</th>
-          </tr>
-          <tr>
-            <td>Длина палки</td>
-    	      <td>Вес палки</td>
-    	      <td>Материал</td>
-          </tr>
-        </table>
-      </section>
+            <ul class="slider-btn">
+              <li class="slider-btn-page-1"><a href="page-1.html">Страница 1</a></li>
+              <li class="slider-btn-page-2"><a href="page-2.html">Страница 2</a></li>
+              <li class="slider-btn-page-3"><a href="page-3.html">Страница 3</a></li>
+            </ul>
+            <table class="slider-items-parameter">
+              <tr>
+                <th>8,5 м</th>
+    	          <th>5 кг</th>
+    	          <th>Карбон</th>
+              </tr>
+              <tr>
+                <td>Длина палки</td>
+    	          <td>Вес палки</td>
+    	          <td>Материал</td>
+              </tr>
+            </table>
+          </li>
 
-       <!-- Слайдера №2 -->
-      <section class="main-slider-page-2">
-        <a class="image-slider-photo-2">
-          <img src="" width="407" height="486" alt="Фитнес-браслет">
-        </a>
-        <p class="slider-page-number">02</p>
+          <li>
+            <a class="image-slider-photo-2">
+              <img src="img/slider.png" width="345" height="485" alt="Фитнес-браслет">
+            </a>
+            <p class="slider-page-number">02</p>
           
-        <div class="slider-information">
-          <h2>Худеем правильно!</h2>
-          <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-        </div>
+            <div class="slider-information">
+              <h2>Худеем правильно!</h2>
+              <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и   соблюдать диету.</p>
+            </div>
 
-        <div class="slider-more-info">
-          <p><a class="slider-btn btn" href="#">Подробнее</a></p>
-        </div>
-        <ul class="slider-btn">
-          <li class="slider-btn-page-1"><a href="page-1.html">X</a></li>
-          <li class="slider-btn-page-2"><a href="page-2.html">X</a></li>
-          <li class="slider-btn-page-3"><a href="page-3.html">X</a></li>
-        </ul>
-        <table class="slider-items-parameter">
-          <tr>
-            <th>48 часов</th>
-              <!--  
-              <th></th>
-              <th></th>
+            <div class="slider-more-info">
+              <p><a class="slider-btn btn" href="#">Подробнее</a></p>
+            </div>
+            <ul class="slider-btn">
+              <li class="slider-btn-page-1"><a href="page-1.html">X</a></li>
+              <li class="slider-btn-page-2"><a href="page-2.html">X</a></li>
+              <li class="slider-btn-page-3"><a href="page-3.html">X</a></li>
+            </ul>
+            <table class="slider-items-parameter">
+              <tr>
+                <th>48 часов</th>
+                <!--  
+                <th></th>
+                <th></th>
                 -->
-          </tr>
-          <tr>
-            <td>Без подзарядки</td>
-            <!--
-            <td></td>
-            <td></td>
-            -->
-          </tr>
-        </table>
-      </section>
+              </tr>
+              <tr>
+                <td>Без подзарядки</td>
+                <!--
+                <td></td>
+                <td></td>
+                 -->
+              </tr>
+            </table>
+          </li>
 
-      <!-- Cлайдер №3-->
-
-      <section class="main-slider-page-3">
-        <a class="image-slider-photo-3">
-          <img src="" width="486" height="486" alt="Квадракоптер">
-        </a>
-        <p class="slider-page-number">03</p>
+          <li>
+            <a class="image-slider-photo-3">
+              <img src="img/slider.png" width="526" height="334" alt="Квадракоптер">
+            </a>
+            <p class="slider-page-number">03</p>
           
-        <div class="slider-information">
-          <h2>Порхает как бабочка, жалит как пчела!</h2>
-            <p>Этот обычный, на первый взгляд, кввадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-        </div>
+            <div class="slider-information">
+              <h2>Порхает как бабочка, жалит как пчела!</h2>
+              <p>Этот обычный, на первый взгляд, кввадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+            </div>
 
-        <div class="slider-more-info">
-          <p><a class="slider-btn btn" href="#">Подробнее</a></p>
-        </div>
+            <div class="slider-more-info">
+              <p><a class="slider-btn btn" href="#">Подробнее</a></p>
+            </div>
       
-        <ul class="slider-btn">
-          <li class="slider-btn-page-1"><a href="page-1.html">X</a></li>
-          <li class="slider-btn-page-2"><a href="page-2.html">X</a></li>
-          <li class="slider-btn-page-3"><a href="page-3.html">X</a></li>
-        </ul>
-        <table class="slider-items-parameter">
-          <tr>
-            <th>800 м</th>
-            <th>50 м</th>
-            <!--
-            <th></th>
-            -->
-          </tr>
-          <tr>
-            <td>Дальность полета</td>
-            <td>Радиус поражения</td>
-            <!--
-            <td></td>
-            -->
-          </tr>
-        </table>
+            <ul class="slider-btn">
+              <li class="slider-btn-page-1"><a href="page-1.html">X</a></li>
+              <li class="slider-btn-page-2"><a href="page-2.html">X</a></li>
+              <li class="slider-btn-page-3"><a href="page-3.html">X</a></li>
+            </ul>
+            <table class="slider-items-parameter">
+              <tr>
+                <th>800 м</th>
+                <th>50 м</th>
+                <!--
+                <th></th>
+                 -->
+              </tr>
+              <tr>
+                <td>Дальность полета</td>
+                <td>Радиус поражения</td>
+                <!--
+                <td></td>
+                -->
+              </tr>
+            </table>
+          </li>
+        </ol>
       </section>
-
-
 
 
       <section class="main-popular">
@@ -187,37 +185,37 @@
         <ul class="main-popular-list">
           <li>
     	      <a href="#">
-    	        <img src="popular-1.png" width="160" height="160" alt="Виртуальная реальность">
+    	        <img src="img/popular-1.png" width="97" height="55" alt="Виртуальная реальность">
     	        <p>Виртуальная реальность</p>
     	      </a>
           </li>
           <li>
     	      <a href="#">
-    	        <img src="popular-2.png" widht="160" height="160" alt="Моноподы для селфи">
+    	        <img src="img/popular-2.png" widht="86" height="117" alt="Моноподы для селфи">
     	        <p>Моноподы для селфи</p>
     	      </a>
           </li>
           <li>
     	      <a href="#">
-    	        <img src="popular-3.png" width="160" height="160" alt="Экшн-камеры">
+    	        <img src="img/popular-3.png" width="71" height="87" alt="Экшн-камеры">
     	        <p>Экшн-камеры</p>
     	      </a>
           </li>
           <li>
     	      <a href="#">
-    	        <img src="popular-4.png" width="160" height="160" alt="Фитес-браслеты">
+    	        <img src="img/popular-4.png" width="107" height="65" alt="Фитес-браслеты">
     	        <p>Фитнес-браслеты</p>
             </a>
           </li>
           <li>
     	      <a href="#">
-    	        <img src="popular-5.png" width="160" height="160" alt="Умные часы">
+    	        <img src="img/popular-5.png" width="56" height="98" alt="Умные часы">
     	        <p>Умные часы</p>
     	      </a>
           </li>
           <li>
             <a href="#">
-    	        <img src="popular-6.png" width="160" height="160" alt="Квадракоптеры">
+    	        <img src="img/popular-6.png" width="132" height="69" alt="Квадракоптеры">
     	        <p>Квадракоптеры</p>
     	      </a>
           </li>
@@ -244,8 +242,9 @@
             <img src="delivery.png" width="145" height="173" alt="быстрая доставка">
           </a>
         </div>
-    		
-      </section>
+    	</section>
+
+
       <section class="main-brands">
         <ul>
           <li><img src="logo-1.png" width="300" height="100" alt="DJI компания"></li>
@@ -257,6 +256,8 @@
               <!-- ДОПИСАТЬ АДРЕСА КАРТИНОК-->
         </ul> 
       </section>
+
+
       <section class="main-about-us">
         <div class="about-us-info" >
           <h2>О нас</h2>
@@ -270,6 +271,8 @@
         </ul>
         <a class="about-us-info-btn btn" href="about-us.html">Подробнее о нас</a> 
       </section>
+
+
       <section class="main-contacts">
         <h2>Контакты</h2>
         <p>Вы можете забрать сами, заехав в наш офис. Заодно, вы сможете проверить работоспособоность покупки. Всякое бывает.</p>
