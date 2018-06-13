@@ -8,9 +8,7 @@
 
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
-        DEVICE
-        </a>
+        <a class="main-header-logo">DEVICE</a>
 
         <section class="main-header-search">
     			<!--Здесь будет поиск-->
@@ -25,35 +23,23 @@
 
         <div class="site-navigation">
           <ul class="menu">
-    	      <li><a class="menu-items" href="#">Каталог товаров</a></li>
-          </ul>
-        
-          <ul class="menu-items">
-            <li>
-              <ul>
-                <li><a href="#">Виртуальная реальность</a></li>
-                <li><a href="#">Моноподы для селфи</a></li>
-                <li><a href="#">Экшн-камеры</a></li>
-              </ul>
+    	      <li><a class="menu-items" href="#">Каталог товаров</a>
+              <ul class="menu-items">
+                <li>
+                  <ul>
+                    <li><a href="#">Виртуальная реальность</a></li>
+                    <li><a href="#">Моноподы для селфи</a></li>
+                    <li><a href="#">Экшн-камеры</a></li>
+                    <li><a href="#">Фитнес-браслеты</a></li>
+                    <li><a href="#">Умные-часы</a></li>
+                    <li><a href="#">Квадракоптеры</a></li>
+                  </ul>
+                </li>
+              </ul> 
             </li>
-            <li>
-              <ul>
-                <li><a href="#">Фитнес-браслеты</a></li>
-                <li><a href="#">Умные-часы</a></li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-                <li><a href="#">Квадракоптеры</a></li>
-              </ul>
-            </li>
-          </ul>
-
-
-          <ul class="site-navigation">
-    	      <li><a href="delivery.html">Доставка</a></li>
-    	      <li><a href="guaranty.html">Гарантия</a></li>
-    	      <li><a href="contancts.html">Контакты</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="guaranty.html">Гарантия</a></li>
+            <li><a href="contancts.html">Контакты</a></li>
           </ul>
         </div>
       </nav>
@@ -62,7 +48,7 @@
 
     <main class="main-content">
       <h1 class="visually-hidden">Наши лучшие товары</h1>
-      <section class="main-slider-page-1">
+      <section class="main-slider">
         <ol>
           <li>
             <a class="image-slider-photo-1">
@@ -77,11 +63,9 @@
               </p>
             </div>
 
-            <div class="slider-more-info">
-              <p>
-                <a class="slider-btn btn" href="#">Подробнее</a>
-              </p>
-            </div>
+            
+            <a class="slider-btn btn" href="#">Подробнее</a>
+            
       
             <ul class="slider-btn">
               <li class="slider-btn-page-1"><a href="page-1.html">Страница 1</a></li>
@@ -112,29 +96,19 @@
               <h2>Худеем правильно!</h2>
               <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и   соблюдать диету.</p>
             </div>
-
-            <div class="slider-more-info">
-              <p><a class="slider-btn btn" href="#">Подробнее</a></p>
-            </div>
+            <a class="slider-btn btn" href="#">Подробнее</a>
+            
             <ul class="slider-btn">
-              <li class="slider-btn-page-1"><a href="page-1.html">X</a></li>
-              <li class="slider-btn-page-2"><a href="page-2.html">X</a></li>
-              <li class="slider-btn-page-3"><a href="page-3.html">X</a></li>
+              <li class="slider-btn-page-1"><a href="page-1.html">Страница 1</a></li>
+              <li class="slider-btn-page-2"><a href="page-2.html">Страница 2</a></li>
+              <li class="slider-btn-page-3"><a href="page-3.html">Страница 3</a></li>
             </ul>
             <table class="slider-items-parameter">
               <tr>
                 <th>48 часов</th>
-                <!--  
-                <th></th>
-                <th></th>
-                -->
               </tr>
               <tr>
                 <td>Без подзарядки</td>
-                <!--
-                <td></td>
-                <td></td>
-                 -->
               </tr>
             </table>
           </li>
@@ -149,11 +123,7 @@
               <h2>Порхает как бабочка, жалит как пчела!</h2>
               <p>Этот обычный, на первый взгляд, кввадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
             </div>
-
-            <div class="slider-more-info">
-              <p><a class="slider-btn btn" href="#">Подробнее</a></p>
-            </div>
-      
+            <a class="slider-btn btn" href="#">Подробнее</a>
             <ul class="slider-btn">
               <li class="slider-btn-page-1"><a href="page-1.html">X</a></li>
               <li class="slider-btn-page-2"><a href="page-2.html">X</a></li>
@@ -163,16 +133,10 @@
               <tr>
                 <th>800 м</th>
                 <th>50 м</th>
-                <!--
-                <th></th>
-                 -->
               </tr>
               <tr>
                 <td>Дальность полета</td>
                 <td>Радиус поражения</td>
-                <!--
-                <td></td>
-                -->
               </tr>
             </table>
           </li>
@@ -218,42 +182,56 @@
     	        <img src="img/popular-6.png" width="132" height="69" alt="Квадракоптеры">
     	        <p>Квадракоптеры</p>
     	      </a>
-          </li>
-    			  <!--Тут есть вопрос. Как лучше  делать иконки?Я вижу два варианта: 1.Иконка с квадраным желтым фоном. 2. Квадратный желтый фон попробовать разместить за счет BG-image (но мне пока это сложно). Как правильно для загрузки сайта и т.д.-->
+          </li>		  
         </ul>
       </section>
 
       <section class="main-information">
-           <!--Задать вопрос, как делать? Нужно ли в верстке прописывать скрытые варианты(Доставка-Кредит)?-->
-        <h2>Информация по покупке товаров</h2>
-    	  
-        <div class="main-information-btn">
-     	    <a class="information-btn-delivery">Доставка</a>
-     	    <a class="information-btn-guaranty">Гарантии</a>
-     	    <a class="information-btn-credit">Кредит</a>
-        </div>
+        <h2 class="visually-hidden">Информация по покупке товаров</h2>
 
-        <div class="main-information-content">
-          <h3>Доставка</h3>
-          <p>Мы с удовольствием доставим ваш товар прямо к вашему<br>
+        <ul class="information-list">
+          <li class="information-item">
+            <h3>Доставка</h3>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему<br>
              подъезду совершенно бесплатно!Ведь мы не плохо заработаем, поднимая его на ваш этаж
-          </p>
-          <a class="delivery-information-icon">
-            <img src="delivery.png" width="145" height="173" alt="быстрая доставка">
-          </a>
-        </div>
-    	</section>
+            </p>
+          </li>
+        </ul>
+
+        <ul class="information-list">
+          <li class="information-item">
+            <h3>Гарантия</h3>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему<br>
+             подъезду совершенно бесплатно!Ведь мы не плохо заработаем, поднимая его на ваш этаж
+            </p>
+          </li>
+        </ul>
+
+        <ul class="information-list">
+          <li class="information-item">
+            <h3>Кредит</h3>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему<br>
+             подъезду совершенно бесплатно!Ведь мы не плохо заработаем, поднимая его на ваш этаж
+            </p>
+          </li>
+        </ul>
+
+    	  
+        <ul class="information-nav">
+     	    <li><button class="button">Доставка</button></li>
+     	    <li><button class="button">Гарантии</button></li>
+     	    <li><button class="button">Кредит</button></li>
+        </ul>
+      </section>
 
 
       <section class="main-brands">
-        <ul>
-          <li><img src="logo-1.png" width="300" height="100" alt="DJI компания"></li>
+        <h2 class="visually-hidden">Брэнды</h2>
+        <ul class="brand-list">
+          <li class="brand-item"><span></span></li>
           <li><img src="logo-2.png" width="300" height="100" alt="SP Gadjets"></li>
           <li><img src="logo-3.png" width="300" height="100" alt="Go Pro"></li>
-          <li><img src="logo-4.png" width="300" heigth="100" alt="Vive"></li>
-              <!--Туут можно и через bg-image. как лучше? -->
-
-              <!-- ДОПИСАТЬ АДРЕСА КАРТИНОК-->
+          <li><img src="logo-4.png" width="300" heigth="100" alt="Vive"></li>   
         </ul> 
       </section>
 
@@ -265,9 +243,9 @@
           <p>Мы можем доставить ваш товар в самые отдаленные точки<br> России! DEVICE работает со многими транспортными компаниями</p>
         </div>
         <ul class="about-us-info-delivery-list">
-          <li><p>Деловые линии</p></li>
-          <li><p>Автотрейдинг</p></li>
-          <li><p>ЖелДорЭкспедиция</p></li>
+          <li>Деловые линии</li>
+          <li>Автотрейдинг</li>
+          <li>ЖелДорЭкспедиция</li>
         </ul>
         <a class="about-us-info-btn btn" href="about-us.html">Подробнее о нас</a> 
       </section>
@@ -322,7 +300,7 @@
     <section class="modal modal-map">
       <h2 class="visually-hidden">Найти нас</h2>
       <!--Карта-->
-      <span class="modal-close">X</span>
+      <button class="modal-close">X</button>
     </section>
 
   </body>
