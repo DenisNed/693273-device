@@ -6,36 +6,36 @@
     <body>
 
       <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo" href="index.html">DEVICE</a>
-        <form class="main-header-search" action="/echo.htmlacademy.ru" method="post" >
-          <label for="header-search">Поиск по сайту</label>
-          <input type="search" name="search" id="header-search">
-        </form>
-        <ul class="user-navigation">
-          <li><a class="user-name" href="#">Валентин Петухов</a></li>
-          <li><a href="user-link">Войти</a></li>
-          <li><a href="compare.html">Сравнить</a></li>
-          <li><a href="shop.html">Корзина</a></li>
-        </ul>
-        <div class="site-navigation">
-          <ul class="menu">
-            <li><a href="catalog.html">Каталог товаров</a>
-              <ul class="menu-items">
-                <li><a href="#">Виртуальная реальность</a></li>
-                <li><a href="#">Моноподы для селфи</a></li>
-                <li><a href="#">Экшн-камеры</a></li>
-                <li><a href="#">Фитнес-браслеты</a></li>
-                <li><a href="#">Умные-часы</a></li>
-                <li><a href="#">Квадракоптеры</a></li>
-              </ul> 
-            </li>
-            <li><a href="delivery.html">Доставка</a></li>
-            <li><a href="guaranty.html">Гарантия</a></li>
-            <li><a href="contancts.html">Контакты</a></li>
+        <nav class="main-navigation">
+          <a class="main-header-logo" href="index.html">DEVICE</a>
+          <form class="main-header-search" action="/echo.htmlacademy.ru" method="post" >
+            <label for="header-search">Поиск по сайту</label>
+            <input type="search" name="search" id="header-search">
+          </form>
+          <ul class="user-navigation">
+            <li><a class="user-name" href="#">Валентин Петухов</a></li>
+            <li><a href="user-link">Войти</a></li>
+            <li><a href="compare.html">Сравнить</a></li>
+            <li><a href="shop.html">Корзина</a></li>
           </ul>
-        </div>
-      </nav>
+          <div class="site-navigation">
+            <ul class="menu">
+              <li><a href="catalog.html">Каталог товаров</a>
+                <ul class="menu-items">
+                  <li><a href="#">Виртуальная реальность</a></li>
+                  <li><a href="#">Моноподы для селфи</a></li>
+                  <li><a href="#">Экшн-камеры</a></li>
+                  <li><a href="#">Фитнес-браслеты</a></li>
+                  <li><a href="#">Умные-часы</a></li>
+                  <li><a href="#">Квадракоптеры</a></li>
+                </ul> 
+              </li>
+              <li><a href="delivery.html">Доставка</a></li>
+              <li><a href="guaranty.html">Гарантия</a></li>
+              <li><a href="contancts.html">Контакты</a></li>
+            </ul>
+          </div>
+        </nav>
     </header>
 
 
@@ -90,6 +90,8 @@
     	      <li><a class="items-filter">Цена</a></li>
             <li><a class="items-filter">По типу</a></li>
     	      <li><a class="items-filter">По популярности</a></li>
+            <li class="filter-list-nav"><span>Вверх</span></li>
+            <li class="filter-list-nav"><span>Вниз</span></li>
           </ul>
         </div>
           
@@ -98,7 +100,7 @@
             <img src="img/item-1.png" width="360" height="380" alt="Любительская селфи-палка">
             <p class="catalog-item-nav">
               <a class="btn item-btn" href="#">В корзину</a>
-              <a class="compare-item" href="#">Добавить сравнение</a>
+              <a class="compare-item" href="#">Добавить к сравнению</a>
             </p>
             <a href="catalog-item.html">
       	      <h3>Любительская селфи-палка</h3>
@@ -106,13 +108,11 @@
             </a>
       	  </li>
 
-          <!--переделать все карточки снизу, по подобию вверхней-->
-
           <li class="catalog-item">
             <img src="img/item-2.png" width="360" height="380" alt="Профессиональная селфи-палка">
             <p class="catalog-item-nav">
               <a class="btn item-btn" href="#">В корзину</a>
-              <a class="compare-item" href="#">Добавить сравнение</a>
+              <a class="compare-item" href="#">Добавить к сравнению</a>
             </p>
             <a href="catalog-item.html">
               <h3>Профессиональная селфи-палка</h3>
@@ -126,7 +126,7 @@
             <img src="img/item-3.png" width="360" height="380" alt="Непотопляемая селфи-палка">
             <p class="catalog-item-nav">
               <a class="btn item-btn" href="#">В корзину</a>
-              <a class="compare-item" href="#">Добавить сравнение</a>
+              <a class="compare-item" href="#">Добавить к сравнению</a>
             </p>
             <a href="catalog-item.html">
               <h3>Непотопляемая селфи-палка</h3>
@@ -139,7 +139,7 @@
             <img src="img/item-4.png" width="360" height="380" alt="Селфи палка 'Следуй за мной' ">
             <p class="catalog-item-nav">
               <a class="btn item-btn" href="#">В корзину</a>
-              <a class="compare-item" href="#">Добавить сравнение</a>
+              <a class="compare-item" href="#">Добавить к сравнению</a>
             </p>
             <a href="catalog-item.html">
               <h3>Селфи палка 'Следуй за мной'</h3>
@@ -184,7 +184,7 @@
           <li><a class="user-name" href="#">Валентин Петухов</a></li>
     	    <li><a class="user-exit" href="#">Выйти</a></li>
           <li><a class="compare-items" href="#">Сравнить</a></li>
-          <li><a class="items-shop" href="#">Корзина</a></li>
+          <li><a class="items-shop" href="shop.html">Корзина</a></li>
         </ul>
       </div>
         <p class="footer-telephone-number"> Тел. +7(495) 495-95-95 </p>
