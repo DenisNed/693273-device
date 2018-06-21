@@ -1,0 +1,115 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url{""};
+}
+
+
+body {
+	min-width: 1160px;
+	margin: 0;
+	padding: 0;
+
+
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #464646;
+
+	background-color: #ffffff;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-header {
+    background-color: rgba(240,197,40,0.5);
+    background-repeat: no-repeat;
+
+}
+
+.main-navigation {
+	font-family:"Gilroy", Arial, san-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+	
+
+}
+
+.main-navigation li {
+	list-style: none;
+}
+
+.main-header-logo {
+	font-family: "Gilroy", Arial, san-serif;
+	font-size: 48px;
+	color: #000000;
+}
+
+
+.main-header-search {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #464646;
+}
+
+.user-navigation {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #000000;	
+}
+
+.user-navigation a,
+.site-navigation a {
+	color: #000000;
+}
+
+.user-navigation a:hover {
+
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.user-navigation a:focus{
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.menu ????? {
+	color: red;
+}
+
+.menu-items {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height: 36px;
+	font-weight:300;
+	color: #000000;
+
+}
+
+.menu-items a:hover {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.menu-items a:focus {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+
+.main-slider h3 {
+	font-family: "Gilroy", Arial, san-serif;
+	font-size: 47px;
+	line-height: 56px;
+	font-weight: 700;
+	color: #000000;
+}
+
+
+

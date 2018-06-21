@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -11,8 +13,8 @@
         <a class="main-header-logo">DEVICE</a>
 
         <form class="main-header-search" action="/echo.htmlacademy.ru" method="post" >
-          <label for="header-search">Поиск по сайту</label>
-          <input type="search" name="search" id="header-search">
+          <label for="header-search" class="visually-hidden">Поиск по сайту</label>
+          <input type="search" name="search" id="header-search" placeholder="Поиск по сайту">
         </form>
 
         
@@ -24,7 +26,7 @@
 
         <div class="site-navigation">
           <ul class="menu">
-    	      <li><a href="catalog.html">Каталог товаров</a>
+    	      <li class="navigation-items"><a href="catalog.html">Каталог товаров</a>
               <ul class="menu-items">
                 <li><a href="#">Виртуальная реальность</a></li>
                 <li><a href="#">Моноподы для селфи</a></li>
