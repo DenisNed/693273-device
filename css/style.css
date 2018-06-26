@@ -1,6 +1,4 @@
-@font-face {
-	font-family: "Gilroy";
-	src: url{""};
+
 }
 
 
@@ -26,8 +24,7 @@ a {
 
 .main-header {
     background-color: rgba(240,197,40,0.5);
-    background-repeat: no-repeat;
-
+    
 }
 
 .main-navigation {
@@ -37,7 +34,6 @@ a {
 	font-weight: 700;
 	color: #000000;
 	
-
 }
 
 .main-navigation li {
@@ -47,9 +43,18 @@ a {
 .main-header-logo {
 	font-family: "Gilroy", Arial, san-serif;
 	font-size: 48px;
+	font-weight: 700;
 	color: #000000;
 }
 
+.main-header-logo:hover {
+	color: rgba(0, 0, 0, 0.6);
+
+}
+
+.main-header-logo:focus {
+	color: rgba(0, 0, 0, 0.3);
+}
 
 .main-header-search {
 	font-family: "Open Sans", Arial, san-serif;
@@ -81,10 +86,6 @@ a {
 	color: rgba(0, 0, 0, 0.3);
 }
 
-.menu ????? {
-	color: red;
-}
-
 .menu-items {
 	font-family: "Open Sans", Arial, san-serif;
 	font-size: 15px;
@@ -94,22 +95,224 @@ a {
 
 }
 
-.menu-items a:hover {
+.menu a:hover {
 	color: rgba(0, 0, 0, 0.6);
 }
 
-.menu-items a:focus {
+.menu a:focus {
 	color: rgba(0, 0, 0, 0.3);
 }
 
+.slider-page-number {
+	font-family: "Gilroy", Arial, san-serif;
+	font-size: 179px;
+	font-weight: 700;
+	color:#ffffff;
+}
 
-.main-slider h3 {
+.slider-information h3 {
 	font-family: "Gilroy", Arial, san-serif;
 	font-size: 47px;
 	line-height: 56px;
 	font-weight: 700;
 	color: #000000;
 }
+
+.slider-information p {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height:30px;
+	font-weight: 300px;
+	color: #464646;
+}
+
+.btn {
+    background-color: #f0c52e;
+    width: 220px;
+    height: 4px; 
+
+	font-family:"Gilroy", Arial, san-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #000000;
+
+	padding: 0 40px;
+	margin-top: 30px;
+
+}
+
+.slider-information a:hover   {
+	padding: 10px 40px;
+}
+
+.slider-information a:focus {
+    padding: 10px 40px;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.slider-items-parameter th {
+	font-family: "Gilroy", Arial, san-sarif;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 300;
+	color: #000000;
+
+}
+
+.slider-items-parameter td {
+	font-family: "Open Sans", Arial, san-sarif;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 300;
+	color: #464646;
+}
+
+
+.slider-nav-btn li {
+	list-style: none;
+}
+
+.slider-btn-page {
+	width: 12px;
+	height: 12px;
+	border: 1px solid #000000;
+	border-radius: 50%;
+
+}
+
+
+.main-popular {
+	font-family: "Gilroy", Arial, san-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.main-popular li {
+	list-style: none ;
+}
+
+.popular-item  {
+	background-color: rgba(240, 197, 46, 0.5);
+	width: 160px;
+	height: 160px;
+	
+}
+
+.popular-item a {
+	color: #000000;
+}
+
+.item-1 {
+   
+	
+}
+
+.service-list {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #464646;
+
+	
+	background-color: #e5e5e5;
+}
+
+.service-item {
+	
+} 
+
+
+.service-list li {
+	list-style: none;
+}
+
+.service-item h3 {
+	font-family: "Gilroy", Arial, san-sarif;
+	font-size: 47px;
+	line-height: 48px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.service-btn-nav li {
+	list-style: none;
+
+}
+
+.main-brands li {
+	list-style: none;
+}
+
+.main-about-us h3 {
+	font-family: "Gilroy", Arial, san-serif;
+	font-size: 47px;
+	line-height: 48px;
+	font-weight: 700;
+	color: #000000;
+
+}
+
+.main-about-us p {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #464646;
+}
+
+.delivery-list {
+	font-family: "Gilroy", Arial, san-serif;
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 700;
+    color: #000000;
+}
+
+.main-contacts h3 {
+    font-family: "Gilroy", Arial, san-serif;
+    font-size: 47px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.main-contacts p {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #464646;
+}
+
+.main-footer {
+	background-color: #464646;
+}
+
+.main-footer-logo {
+	font-family: "Gilroy", Arial, san-serif;
+	font-size: 48px;
+	font-weight: 700;
+	color: #ffc600;
+}
+
+.footer-adress {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.navigation-list {
+	font-family: "Gilroy", Arial, san-serif;
+}
+.navigation-list li {
+	list-style: none;
+
+}
+
 
 
 
