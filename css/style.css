@@ -121,24 +121,38 @@ a {
 .slider-information p {
 	font-family: "Open Sans", Arial, san-serif;
 	font-size: 15px;
-	line-height:30px;
+	line-height: 30px;
 	font-weight: 300px;
 	color: #464646;
 }
 
 .btn {
-    background-color: #f0c52e;
+	position: relative;
     width: 220px;
-    height: 4px; 
-
-	font-family:"Gilroy", Arial, san-serif;
+    font-family: "Gilroy", Arial, san-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #000000;
-
-	padding: 0 40px;
+    padding: 0 40px;
 	margin-top: 30px;
 
+}
+
+.btn:before {
+	content: "";
+	display: table;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	height: 8px;
+    background-color: #f0c52e;
+    z-index: -1;
+} 
+
+.btn:hover:before {
+	height: 40px;
 }
 
 .slider-information a:hover   {
@@ -187,6 +201,7 @@ a {
 	line-height: 24px;
 	font-weight: 700;
 	color: #000000;
+
 }
 
 .main-popular li {
@@ -200,16 +215,36 @@ a {
 	
 }
 
-.popular-item a {
+.popular-item {
 	color: #000000;
+	position: relative;
+
 }
 
-.item-1 {
+.popular-item::before {
+	content: "";
+	display: table;
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	background-color: #f7e296;
+	background-repeat: no-repeat;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+.item-1::before {
+	background-image: url("../img/popular-1.png");
+}
+
+/*.item-1 {
 	background-image: url("../img/popular-1.png");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	}
+*/
 
-}
  
 .item-2 {
 	background-image: url("../img/popular-2.png");
@@ -222,6 +257,7 @@ a {
 	background-image: url("../img/popular-3.png");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+
 }
 
 .item-4 {
@@ -235,6 +271,7 @@ a {
 	background-image: url("../img/popular-5.png");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+
 }
 
 .item-6 {
@@ -564,3 +601,10 @@ a {
 	background-position: 90% 90%;
 }
 
+.form-bg {
+	width: 960px;
+	height: 553px;
+	background-color: #ffffff;
+}
+
+input[type="text"]
