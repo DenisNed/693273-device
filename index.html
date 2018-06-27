@@ -251,17 +251,19 @@
 
     <section class="modal modal-contact-us">
       <h2 class="visually-hidden">Связаться с нами</h2>
-      <form action="echo.html" method="post">
-        <label class="visually-hidden" for="login-field"> Имя Фамилия</label>
-        <input class="form-login" type="text" name="login" id="login-field" placeholder="Имя Фамилия">
+      <div class="form-bg">
+        <form action="echo.html" method="post">
+          <label class="visually-hidden" for="login-field"> Имя Фамилия</label>
+          <input class="form-login" type="text" name="login" id="login-field" placeholder="Имя Фамилия">
 
-        <label class="visually-hidden">Электронная почта</label>
-        <input class="form-email" type="text" name="email" id="email-field" placeholder="email@exemple.com">
+          <label class="visually-hidden">Электронная почта</label>
+          <input class="form-email" type="text" name="email" id="email-field" placeholder="email@exemple.com">
 
-        <label class="visually-hidden" for="text-area" ></label>
-        <textarea name="info-text" id="text-area" placeholder="В свободной форме" row="10"></textarea>
-        <button type="submit" class="btn modal-form-btn">Отправить</button>
-      </form>
+          <label class="visually-hidden" for="text-area" ></label>
+          <textarea name="info-text" id="text-area" placeholder="В свободной форме" row="10"></textarea>
+          <button type="submit" class="btn modal-form-btn">Отправить</button>
+        </form>
+      </div>
       <button class="modal-close">Закрыть</button>
     </section>
 
