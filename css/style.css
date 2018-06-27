@@ -205,9 +205,55 @@ a {
 }
 
 .item-1 {
-   
-	
+	background-image: url("../img/popular-1.png");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+
 }
+ 
+.item-2 {
+	background-image: url("../img/popular-2.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+
+}
+
+.item-3 {
+	background-image: url("../img/popular-3.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.item-4 {
+	background-image: url("../img/popular-4.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+
+}
+
+.item-5 {
+	background-image: url("../img/popular-5.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.item-6 {
+	background-image: url("../img/popular-6.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+
+}
+
+.popular-item:hover {
+	background-color: #ffc600;
+}
+
+.popular-list a:focus {
+
+	color: rgba(0, 0, 0, 0.3);
+}
+
+
 
 .service-list {
 	font-family: "Open Sans", Arial, san-serif;
@@ -220,9 +266,7 @@ a {
 	background-color: #e5e5e5;
 }
 
-.service-item {
-	
-} 
+
 
 
 .service-list li {
@@ -230,20 +274,123 @@ a {
 }
 
 .service-item h3 {
+    min-height: 170px;
+
+
 	font-family: "Gilroy", Arial, san-sarif;
 	font-size: 47px;
 	line-height: 48px;
 	font-weight: 700;
 	color: #000000;
+
+
 }
+
+.service-item-1 {
+    background-image: url("../img/delivery.png");
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+	
+} 
+
+.service-item-2 {
+    background-image: url("../img/warranty.png");
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+}
+
+.service-item-3 {
+    background-image: url("../img/credit.png");
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+
+ }
+
 
 .service-btn-nav li {
 	list-style: none;
 
 }
 
+.btn-service {
+    padding: 5px 20px; 
+	background-color: #f0c52e;
+
+    }
+
+.btn-service:hover {
+	padding: 20px 20px;
+
+}
+
+.btn-service:focus {
+
+	padding:20px 20px 20px 0px;
+	background-color: #000000;
+
+	width: 500px;
+
+	color: #f0c52e;
+}
+
+
 .main-brands li {
 	list-style: none;
+}
+
+.brand-list li {
+	min-height: 120px;
+}
+
+
+
+.brand-item-1 {
+	background-image: url("../img/brend-1.png");
+	background-repeat: no-repeat;
+
+	filter: grayscale(100%) opacity(30%);
+	
+
+}
+
+.brand-item-1 {
+	background-image: url("../img/brend-1.png");
+	background-repeat: no-repeat;
+
+	filter: grayscale(100%) opacity(30%);
+	
+
+}
+
+.brand-item-2 {
+	background-image: url("../img/brend-2.png");
+	background-repeat: no-repeat;
+
+	filter: grayscale(100%) opacity(30%);
+	
+
+}
+
+.brand-item-3 {
+	background-image: url("../img/brend-3.png");
+	background-repeat: no-repeat;
+
+	filter: grayscale(100%) opacity(30%);
+	
+
+}
+
+.brand-item-4 {
+	background-image: url("../img/brend-4.png");
+	background-repeat: no-repeat;
+
+	filter: grayscale(100%) opacity(30%);
+	
+
+}
+
+.brand-item:hover {
+	filter: none;
 }
 
 .main-about-us h3 {
@@ -271,6 +418,16 @@ a {
     color: #000000;
 }
 
+.main-about-us a:hover {
+	padding: 10px 40px;
+}
+
+.main-about-us a:focus {
+    padding: 10px 40px;
+	color: rgba(0, 0, 0, 0.3);
+
+}
+
 .main-contacts h3 {
     font-family: "Gilroy", Arial, san-serif;
     font-size: 47px;
@@ -287,6 +444,17 @@ a {
 	color: #464646;
 }
 
+.contacts-us-btn:hover {
+	padding: 10px 40px;
+
+}
+
+.contacts-us-btn:focus {
+    padding: 10px 40px;
+	color: rgba(0, 0, 0, 0.3);
+
+}
+
 .main-footer {
 	background-color: #464646;
 }
@@ -298,6 +466,16 @@ a {
 	color: #ffc600;
 }
 
+.main-footer-logo:hover {
+	color: rgba(255, 198, 0, 0.6);
+}
+
+.main-footer-logo:focus {
+	color: rgba(255, 198, 0, 0.3);
+}
+
+
+
 .footer-adress {
 	font-family: "Open Sans", Arial, san-serif;
 	font-size: 15px;
@@ -307,12 +485,82 @@ a {
 }
 .navigation-list {
 	font-family: "Gilroy", Arial, san-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+    color: #ffffff;
 }
 .navigation-list li {
 	list-style: none;
 
 }
 
+.navigation-list a {
+	color: #ffffff;
+}
+
+.navigation-list a:hover {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.navigation-list a:focus {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-social li {
+	list-style: none;
+
+}
+
+.footer-social a {
+	color: #ffffff;
+}
+
+.user-navigation {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.6);
+}
 
 
+.user-navigation li {
+	list-style: none;
+}
+
+
+.user-navigation a {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+
+.user-navigation a:hover {
+	color: #ffffff;
+}
+
+
+.user-navigation a:focus {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-telephone {
+	font-family: "Open Sans", Arial, san-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #ffffff;
+
+}
+
+.logo-creator {
+	min-width: 30px;
+    min-height: 50px;
+
+    margin-top: 10px;
+
+	background-image: url("../img/htmlacademy.png");
+	background-repeat: no-repeat;
+	background-position: 90% 90%;
+}
 
